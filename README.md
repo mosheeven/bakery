@@ -1,6 +1,6 @@
 # Devops Bakery
 ## Spin up Jenkins container.
-
+### docker pull jenkins/jenkins
 
 With local volume for Jenkins workspace folder.
 Web UI is accessible via port 11000 on your laptop.
