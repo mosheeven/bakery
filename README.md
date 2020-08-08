@@ -13,8 +13,8 @@ docker run -d \
 jenkins/jenkins
 
 - Task: take the admin password generated to finish jenkins installtion. 
-docker container logs <container ID> 
 
+docker container logs <container ID> 
 
 - Task: On the running container install Maven.
 
