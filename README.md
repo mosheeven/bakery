@@ -8,7 +8,7 @@
 
 docker run -d \
 --name=bakeryjenkins \
---mount source=jenkins-vol,destination=//var//lib//jenkins \
+--mount source=jenkins-vol,destination=//var//jenkins_home \
 --publish 11000:8080 
 jenkins/jenkins
 
